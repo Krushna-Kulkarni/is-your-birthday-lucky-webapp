@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+:root{
+    --primary:#374151;
+    --secondary: #60A5FA;
+    --background:#F5D0FE;
+    --color:#CFFAFE;
+    --lighter:#FDF4FF;
+  }
+  *,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    /* display: block; */
+    box-sizing: border-box;
+  }
+  body{
+    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+    font-family: 'Poppins', sans-serif;
+  }
+  .pagewrap{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+  }
+  nav{
+    padding: 2rem;
+    color:var(--primary);
+    width: 100%;
+  }
+  .header{
+    font-size: 2rem;
+    font-weight: bolder;
+  }
+  main{
+    flex-grow: 1;
+  }
+  p{
+    color:var(--primary);
+    padding: 0.5rem;
+    text-align: center;
+  }
+  .notice {
+    color: red;
+    font-size: 1.2rem;
+    font-weight: medium;
+  }
+  .container{
+    max-width: 60%;
+    margin: auto;
+    padding: 1rem;
+  }
+  input,label{
+    display: block;  
+    font-size: large;
+    margin: auto;
+  }
+  label{
+    font-size: larger;
+    font-weight: bold;
+    color: var(--primary);
+  }
+  .input{
+    width: 80%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    border-width: 0.15rem;
+    border-color: 1rem solid var(--secondary);
+  }
+  .btn{
+    display: block;
+    margin-top: 1rem;
+    margin:auto;
+    /* border-width: medium; */
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.5rem;
+    /* border-width: 0.15rem; */
+    border-radius: 0.5rem;
+    border-color: 1rem solid var(--primary);
+    color: var(--primary);
+    font-size: large;
+    font-weight: bold;
+  }
+  textarea{
+    width: 100%;
+    padding: 1rem;
+    border-radius:0.5rem;
+    background-color: var(--secondary);
+    text-align: center;
+    font-weight: bolder;
+    border:2px solid var(--primary );
+    font-size: 1rem;
+  }
+  footer{
+    padding: 2rem;
+    color: var(--primary);
+  }
+  .fot{
+    font-size: larger;
+  }
+  .footerlist, img{
+    padding: 1rem;
+    align-content: center;
+  }
+
+
