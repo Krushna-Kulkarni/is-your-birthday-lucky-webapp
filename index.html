@@ -1,12 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Is your Birthday Lucky</title>
+    <title>Is Your Birthday lucky ? </title>
+    <link href="styles.css" rel="stylesheet" />
+
 </head>
+
 <body>
-        
+    <div class="pagewrap">
+        <nav class="header">
+            Is Your Birthday Lucky? Lets Check!
+        </nav>
+        <main>
+            <p class="notice">*Privacy notice: We are not storing any data</p>
+            <div class="container">
+                <label for="birth-date">Select Your Birth Date:</label>
+                <input type="date"  id="birth-date" class="input" />
+                <label for="number-input">Enter Your Lucky Number:</label>
+                <input type="number" id="number-input" min="0" class="input" />
+                <button class="btn" id="btn-check">Check</button>
+                <textarea id="output" disabled></textarea>
+            </div>
+        </main>
+        <footer class="footer">
+            <p class="fot">2021 &nbsp;| &nbsp; Krushna Kulkarni</p>
+            <div class='footerlist' style='align-items: center;'>
+                <a class="svg" href="https://github.com/Krushna-Kulkarni">
+                    <img src="images/github.svg">
+                </a>
+                <a class="svg" href="https://www.linkedin.com/in/krushna-kulkarni/">
+                    <img src='images/linkedin.svg'>
+                </a>
+                <a class="svg" href="https://twitter.com/Krushnatweets">
+                    <img src='images/twitter.svg'>
+                </a>
+
+            </div>
+        </footer>
+    </div>
+    <script src="app.js" type="text/javascript"></script>
 </body>
+
 </html>
