@@ -6,7 +6,7 @@ const result = document.querySelector('#output');
 
 // Adding a event listerner for button click
 buttonCheck.addEventListener('click', ()=>{
-    if(luckyNumber.value >= 0)
+    if(luckyNumber.value > 0)
     {
         clickHandler();
     }else{
